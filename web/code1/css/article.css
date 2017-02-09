@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+	.top{ width:980px; height:270px; margin:38px auto 0;}
+	.top-hd,.middle-hd,.bottom-hd{ height:28px; width:954px; margin:0 auto;  padding:0 4px; line-height:24px; font-size:20px; font-family:"微软雅黑";}
+	.top-hd h2,.middle-hd h2,.bottom-hd h2{ height:24px; line-height:24px; float:left; border-left:4px solid #D0200E; font-weight:bold; padding-left:4px;}
+	.top-hd a,.middle-hd a,.bottom-hd a{ float:right;font-size:16px;padding:5px; _padding:0; }
+	.top-bd,.middle-bd,.bottom-bd{ width:980px; border-top:2px solid #6D6D6D;}
+	.top-bd table{ width:950px; height:200px; text-align:center; font-size:14px; margin:0 auto;}
+	.top-bd table tr{ height:26px; text-align:center; line-height:20px;}
+	.top-bd table tr td{ height:26px; text-align:center;}
+	.top-bd table tr td a{ height:20px; text-align:center;width:66px; background:#B10000; display:inline-block; color:#fCC;}
+	.top-bd table tr td a:hover{ color:#FFF;}
+
+	.middle{ width:980px; height:270px; margin:10px auto 0; }
+	.middle-bd .subnav ul{ width:232px; height:20px; margin:0 auto;}
+	.middle-bd .subnav li{ float:left; padding:0 8px; font-size:12px; font-family:"微软雅黑"; cursor:pointer;}
+	.middle-bd .subnav li a:hover{ background:url("../images/subnavbg-l.png") no-repeat left bottom;}
+	.middle-bd .subnav li a:hover span{background:url("../images/subnavbg-r.png") repeat-x right bottom;} 
+    .middle-bd .subnav li.current a{ background:url("../images/subnavbg-l.png") no-repeat left bottom;}
+	.middle-bd .subnav li.current a span{background:url("../images/subnavbg-r.png") repeat-x right bottom;}
+	.pic{ width:980px; height:208px; margin-top:10px; overflow:hidden;}
+	.pic ul{ float:left;}
+	.pic ul li{ float:left; background:url("../images/sprite.fw.png") no-repeat 0 -1200px; width:306px; height:206px; margin:0 9px; _margin:0 8px; border:1px solid #B8B8B8;}
+	
+	.bottom{ width:980px; height:390px; margin:40px auto 0;}
+	.bottom-bd table{ width:900px; margin:20px auto 0; font-size:16px; font-family:"微软雅黑"; line-height:28px;}
+	.bottom-bd table tr td{ height:28px; padding:5px 2px; line-height:28px; }
+	.bottom-bd table .firstt{ width:88px; text-align:right; line-height:28px;}
+	.bottom-bd table .sect{ width:140px;  line-height:28px;}
+	.bottom-bd input{ height:28px;}
+	.bottom-bd select{ height:28px; width:140px;}
+	
+		

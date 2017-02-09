@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.main-in{ width:980px; margin:0 auto; overflow:hidden;}
+	.hotNews,.introduce{ height:608px; border:2px #b7b7b7 solid; margin-top:22px;}
+	.hotNews{ width:694px; float:left;}
+	.introduce{ width:268px; float:right;}
+	.hotNews-in{  margin-bottom:10px; height:22px; font-family:"微软雅黑"; padding-top:12px;}
+	.hotNews-title{ width:92px; text-align:right; font-size:20px; font-weight:bold; float:left;}	
+	.hotNews-nav{ width:214px; height:22px; font-size:14px; padding-right:30px; float:right; }
+	
+	.hot-in{ width: 686px; height:158px; padding:18px 0 0 8px;}	
+	.hot1{ width: 216px; height:156px; border:1px #B7B7B7 solid; float:left;}	
+	.hot2{ width: 336px; height:158px;float:left; margin-left:26px;}	
+	.hot3{ width: 88px; height:158px; float:right; border-left: 2px #b7b7b7 solid; text-align:center;}
+	.hotNews-button{ width:84px; height:24px; background:#DD0000; margin-top:36px; font-size:14px; font-family:"微软雅黑"; line-height:24px; position:relative; padding-left:10px; display:block; color:#fff;}
+	.hotNews-button-sanjiao{ width:0; height:0; border-width:4px; border-style:dashed dashed dashed solid; border-color:transparent transparent transparent #fff; float:right; position:absolute; top:8px; right:10px; overflow:hidden;}
+	.hotNews-button:hover{ color:#000;}
+	.hotNews-subnav{ width: 694px; height:40px; text-align:center; margin-top:10px;}	
+	.hotNews-subnav a{ width: 20px; height:40px; text-align:center; margin-top:4px; display:inline-block;}	
+	.introduce-in{  margin-bottom:10px; height:22px; font-family:"微软雅黑"; padding-top:12px;}
+	.introduce-title{ width:80px; text-align:right; font-size:18px; font-weight:bold; float:left;}
+	.introduce-nav{ width:54px; float:right; font-size:14px;}
+	.introduce-pic{ width:247px; height:166px; background:url("../images/recommend top.png") no-repeat center bottom; margin:0 auto;}
+	.introduce1,.introduce2{ text-align:center;font-size:14px; font-family:"微软雅黑";}
+	.introduce2 span{ font-weight:bold;}
+	.introduce3{ width:108px; height:188px; background:url("../images/recommend bottom.png") no-repeat; margin:20px 0 0 8px; float:left;}
+	.introduce4,introduce4 a{ width:148px; height:174px; margin:20px 0; float:right; text-align:center;_width:140px;}
+	.introduce4 a{ width:34px; text-align:right; display:block; height:14px; text-align:left; position:relative; float:right;} 
+	.introduce-sanjiao{ width:0; height:0; border-width:3px; border-style:dashed dashed dashed solid; border-color:transparent transparent transparent #000; float:right; position:absolute; top:10px; right:0; overflow:hidden;}
+	.brandActivity{height:394px; border:2px #b7b7b7 solid; clear:both; margin-top:650px;_margin-top:10px; }
+	.brandActivity-in{  margin-bottom:10px; height:22px; font-family:"微软雅黑"; padding-top:12px;}
+	.brandActivity-title{ width:80px; text-align:right; font-size:18px; font-weight:bold; float:left;}
+	.brandActivity-nav{ width:260px; height:26px; font-size:14px; float:right; display:block; }
+	.brandActivity-nav ul li{ width:28px; height:26px; font-size:14px;float:left; display:block; background:#FFF; border:1px solid #ffc9a1; text-align:center; margin:2px;}
+	.brandActivity-nav .brandActivity-subnav{ width:60px; height:26px; font-size:14px;float:left; display:block; background:#FFF; border:1px solid #ffc9a1; text-align:center;}
+	.brandActivity-nav ul li a{ color:#FF4200;}
+	.brandActivity-main{ width:930px; height:328px; margin:0 auto; clear:both; margin-top:28px;}
+	.brandActivity-main1,.brandActivity-main2,.brandActivity-main3,.brandActivity-main4,.brandActivity-main5,.brandActivity-main6, .brandActivity-main7,.brandActivity-main8{ width:224px; height:156px; border:1px solid #b7b7b7; background:url("../images/brand activity1.png") no-repeat; float:right; position:relative; margin:2px;}
+	.brandActivity-main2{ background:url("../images/brand activity2.png") no-repeat;}
+	.brandActivity-main3{ background:url("../images/brand activity3.png") no-repeat;}
+	.brandActivity-main4{ background:url("../images/brand activity4.jpg") no-repeat;}
+	.brandActivity-main5{ background:url("../images/brand activity5.png") no-repeat;}
+	.brandActivity-main6{ background:url("../images/brand activity6.png") no-repeat;}
+	.brandActivity-main7{ background:url("../images/brand- activity7.png") no-repeat;}
+	.brandActivity-main8{ background:url("../images/brand activity8.png") no-repeat;}
+	.brandActivity-main11{ width:224px; height:37px; position:absolute; background:url("../images/brand activity.png") no-repeat; bottom:0;}
+	.brandActivity-main11 a{  width:224px; height:37px; top:10px; position:absolute; left:20px;}
+	
+

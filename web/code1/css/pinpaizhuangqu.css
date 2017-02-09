@@ -1,0 +1,34 @@
+@charset "utf-8";
+	.main-in{ width:980px; height:1060px; margin:0 auto;}
+	.jianjie{ height:266px; padding:18px 15px; overflow:hidden;}
+	.jianjie .shipin{ float:left; border:2px solid #777; margin-right:15px; background:url("../images/brand pic.png") no-repeat; height:280px; width:480px; position:relative;}
+	.jianjie p{ margin-top:20px;}
+	.jianjie .shipin s{ background:url("../images/brand video bg.png") no-repeat; position:absolute; top:68px; left:50%; margin-left:-65px; width:130px; height:130px;}
+	.jianjie .shipin s a{ background:url("../images/brand video button.png") no-repeat; position:absolute; width:36px; height:56px; top:40px; left:50%; margin-left:-12px;}
+	.jianjie h2{ font-size:20px; font-family:"微软雅黑"; font-weight:inherit}
+	.jishu{ height:160px; margin-top:20px; padding:0 14px;}
+	.jishu-hd{ height:28px; width:118px; position:relative; margin-left:14px; margin-bottom:10px; _margin-bottom:18px;}
+	.jishu-hd s{ width:116px; height:16px; border:1px solid #b7b7b7; display:block;}
+	.jishu-hd h2{ position:absolute; top:5px;_top:14px; left:14px; font-size:20px; font-family:"微软雅黑"; background:#F5F5F5; }
+	.jishu-bd{ margin-left:14px;}
+	.jishu-bd h2,.left h2{ font-size:16px; font-family:"微软雅黑"; margin-bottom:6px;}
+	.pinzhi{ height:280px;margin-top:30px; padding:0 14px;}
+	.left{ width:554px; float:left; height:210px; margin-left:14px; _margin-left:0px;}
+	.left h2{ margin-left:16px; _margin-left:24px; }
+	.left p{ margin-bottom:10px;}
+	.left span{ background:#f3e8e8; display:block; border:1px solid #b7b7b7; padding:0 4px;}
+	.right{ width:346px; float:right; background:url("../images/quality guarantee video bg.png") no-repeat; border:1px solid #b7b7b7; height:134px; margin-right:10px; text-align:center; font-size:20px; font-family:"微软雅黑"; padding-top:50px; color:#fff;}
+	.right-in{width:344px; height:27px; background:url("../images/quality guarantee videobar.png") no-repeat; margin-top:82px; position:relative;}
+	.right-in i{ height:0; width:0; position:absolute; border-width:10px; border-style:dashed dashed dashed solid; border-color:transparent transparent transparent #fff; top:3px; left:20px; overflow:hidden; cursor:pointer;}
+	.right-in span{ font-size:10px; font-family:Arial, Helvetica, sans-serif; position:absolute; top:7px; left:54px; overflow:hidden;}
+	.right-in s{ background:url("../images/sprite.fw.png") no-repeat -400px -820px; position:absolute; top:7px; left:240px; width:18px; height:13px; cursor:pointer; overflow:hidden;}
+	.right-in b{ background:url("../images/sprite.fw.png") no-repeat -480px -820px; position:absolute; top:6px; left:324px; width:16px; height:16px; cursor:pointer; overflow:hidden;}
+	.right-in em{ background:url("../images/sprite.fw.png") no-repeat -580px -820px; position:absolute; top:11px; left:266px; width:33px; height:3px; overflow:hidden;}
+	.right-in u{ background:url("../images/sprite.fw.png") no-repeat -530px -820px; position:absolute; top:5px; left:299px; width:13px; height:13px; cursor:pointer; overflow:hidden;}
+	.rongyu{ height:288px; position:relative; margin:0px 0 4px 24px; _margin:8px 0 4px 14px;}
+	.rongyu-hd s{ width:171px; height:19px; border:1px solid #b7b7b7; display:block;}
+	.rongyu-hd h2{ position:absolute; top:5px;_top:14px; left:14px; font-size:20px; font-family:"微软雅黑"; background:#F5F5F5; }
+	.rongyu-bd del{ background:url("../images/sprite.fw.png") no-repeat 0 -980px; width:274px; height:190px; display:block; float:left;  margin:40px 0 0 20px; border:1px solid #c4c4c4; display:block; }
+	.rongyu-bd p{ font-size:16px; font-family:"微软雅黑"; margin-left:310px; margin-right:40px;}
+	.rongyu-bd p a{float:right;}
+

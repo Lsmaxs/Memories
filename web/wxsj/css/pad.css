@@ -1,0 +1,60 @@
+ html {
+     
+-webkit-text-size-adjust: 100%;  
+-ms-text-size-adjust: 100%;} /*让谷歌浏览器可以设定字体大小*/
+    
+
+
+body,div,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p{margin:0;padding:0;}
+
+article， aside， details， figcaption， figure， footer， header， hgroup， menu， nav， section {
+	display： block;
+}
+/* 设置HTML5元素为块 */
+
+img {
+	max-width： 100%;
+	height： auto;
+	width： auto\9; /* ie8 */
+}
+
+.video embed， .video object， .video iframe {
+	width： 100%;
+	height： auto;
+	}
+/* 设置图片视频等自适应调整 */
+  
+
+
+
+.navin{ width: 100%; margin-left: 0; right: 0; position: static;}
+.logo{ left: 5%;}
+.logo a{ text-indent: -9999em }
+.navin ul li a{ padding:0 10px;}
+.sers {width: 85%; margin: 0 7.5%;}
+.sers ul li{width: 25%; }
+.sers ul li p{ width: 100%}
+.yy{ width: 100%; background-size: contain}
+
+.case{ width: 100%; height: auto; overflow: hidden;}
+.casein{ width: 90%; margin: 0 5%}
+.zuopin{ width: 500%}
+.zuopin ul li:nth-child(4n){ display: none}
+.casein ul{ width: 25%}
+.casein ul li{ width: 26%;}
+
+.newsin .day{ width: 100% !important;}
+.newsin{ width: 90%;}
+.newsin i{ right: 0px}
+.newsin p.day span:nth-child(1){ }
+.newsin p.day span:nth-child(2){ display: none}
+.newsin p.day span:nth-child(3){ display: none}
+.newsin p.day span:nth-child(4){ display: none}
+.newsin p.day span:nth-child(5){ display: none}
+.newsin p.day span:nth-child(6){ float: right; color: #ff8932; cursor: pointer;}
+.footerin{ width: 100%;}
+
+.footerin dl:nth-child(2){ display: none;}
+.footerin dl:nth-child(3){ display: none;}
+.footerin dl:nth-child(4){ margin-left: 50px}
+

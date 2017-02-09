@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+	.banner{ width:100%;height:413px; margin:0 auto; position:relative;}
+	.banner ul{ width:100%;height:413px;position: absolute;}
+	.banner ul li{ width:100%;height:413px;  position: absolute; top: 0; left:0;}
+
+
+	.banner ol{ position:absolute; bottom:16px; right:242px;}
+	.banner ol li{ width:16px; height:16px; background:#BDBDBD; float:left; margin-right:16px; cursor: pointer;}
+	.banner ol li.current{ background:#fff;}
+	
+	.dongTai{ height:280px; width:980px; margin:0 auto; margin-top:42px;}
+	.dongTai-hd{ height:28px; width:954px; margin:0 auto;  padding:0 4px; line-height:24px; font-size:20px; font-family:"微软雅黑";}
+	.dongTai-hd h2{ height:24px;line-height:24px;   float:left; border-left:4px solid #D0200E; padding:0 4px; font-weight:bold;}
+	.dongTai-hd a{ float:right; font-size:16px; padding-top:6px;}
+	.dongTai-bd{ width:980px; border-top:2px solid #6D6D6D; position: relative;}
+	.dongTai-bd-in{ width:872px; height:148px; margin:42px; }
+	.sanjiao{ float: left; position: absolute; left: 40px;}
+	.sanjiao i{ display:inline-block; float:left; margin:52px 0; position:relative; }
+	.sanjiao i em,.sanjiao i span{
+		display:block;
+		width:0; height:0;
+		border-width:20px;
+		border-color:transparent #CE1300 transparent transparent;
+		border-style:dashed solid dashed dashed;
+		position: absolute;
+		top:0;
+		left:0; cursor:pointer;
+		overflow:hidden;}
+	.sanjiao i span{ border-right-color:#F5F5F5; left:4px;}
+	
+	.sanjiao-r{ float: right; float: right; margin-right: 50px;}
+	.sanjiao-r i{ display:inline-block; float:left; margin:52px 0; position:relative;}
+	.sanjiao-r i em,.sanjiao-r i span{
+		display:block;
+		width:0; height:0;
+		border-width:20px;
+		border-color:transparent transparent transparent #CE1300;
+		border-style:dashed dashed dashed  solid;
+		position: absolute;
+		top:0;
+		left:0; cursor:pointer;
+		overflow:hidden;}
+	.sanjiao-r i span{ border-left-color:#F5F5F5; left:-4px;}
+	.dongTai-bd-in ul{  margin:0 auto; width:500%; height: 148px;}	
+	.lunbotu{ width: 758px; overflow: hidden; float: left;margin-left: 54px;}
+	.dongTai-bd-in ul li{ width:222px; margin:0 15px; _margin:0 10px; background:#000; float:left; height:148px; }
+	
+	.news{ width:980px; height:280px; margin:0 auto;}
+	.news-hd{ height:28px; width:954px; margin:0 auto;  padding:0 4px; line-height:24px; font-size:20px;  font-family:"微软雅黑";}
+	.news-hd h2{ height:24px;line-height:24px;   float:left; border-left:4px solid #D0200E; padding:0 4px; font-weight:bold;}
+	.news-hd a{ float:right; font-size:16px; padding-top:6px;}
+	.news-hd ul { margin-left:40px; width:400px; float:left;}
+	.news-hd ul li{ float:left; width:70px; height:26px; margin:0 20px 0 0; padding:4px 1px 0 4px; overflow:hidden;}
+	.news-hd ul li a{ float:left; line-height:30px; padding:0 3px;}
+	.news-hd ul li.current{ padding:0; border-left:1px solid #6D6D6D; border-right:1px solid #6D6D6D; border-top:4px solid #CE1300; height:26px; _height:28px; background:#fff;}
+	.news-bd{ width:980px; border-top:2px solid #6D6D6D;}
+	.news-bd-in{ width:960px; margin:28px 10px; height: 260px; overflow:hidden;}
+	.news-bd-in .ulc{ width:1000%; }
+	.news-bd-in .ulc li{ width:960px;height: 260px; float:left}
+	.news-bd-left{ width:168px; height:218px; float:left;}
+	.like{ float:right;height:20px; line-height:10px; position:relative;}
+	.like i{ float:left; background:url("../images/sprite.fw.png") no-repeat 0 -470px; width:12px; height:10px; margin:12px 2px 0; }
+	.like u{ background:url("../images/sprite.fw.png") no-repeat -20px -470px; width:10px; height:9px; margin:6px; display:inline-block; margin:12px 2px 0; overflow:hidden;}
+	.like img{ display:inline;}
+	.news-bd-right{ width:716px; height:194px; float:right;}
+	.right-m{ width:2px; _width:96px; height:194px; float:left; text-align:center; padding-left:42px;_padding-left:0px;}
+	.news-bd-in .ulc li .right-l{ width:310px; height:194px; float:left;}
+	.news-bd-in .ulc li .right-l ul li{ width:310px; height:38px; float:left;}
+	.news-bd-in .ulc li .right-l ul li a{ float:left; height:18px;}
+	.news-bd-in .ulc li .right-l ul li span{ float:right; height:18px;}
+	.news-bd-in .ulc li .right-l ul li .like{ float:right; clear:both;}
+	.right-r{ width:310px; height:194px; float:right;}
+	.news-bd-in .ulc li .right-r ul li{ width:310px; height:38px; float:left;}
+	.news-bd-in .ulc li .right-r ul li a{ float:left; height:18px;}
+	.news-bd-in .ulc li .right-r ul li span{ float:right; height:18px;}
+	.news-bd-in .ulc li .right-r ul li .like{ float:right; clear:both;}

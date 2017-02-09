@@ -1,0 +1,22 @@
+@charset "utf-8";
+*{ font-family:helvetica, arial,"微软雅黑"; color:#bfbfbf;}
+body{margin:0;}
+p{margin:0;}
+a{ text-decoration:none;}
+img{ margin:0;}
+.footer{ margin-left:auto; margin-right:auto;width:1098px;}
+.footermark{ margin-top:13px;}
+.call{ margin-left:418px;margin-top:38px; width:314px;}
+.footer .zui{ font-size:16px; color:#949494; padding-bottom:28px;}
+.footer .mingcheng{ font-size:12px;font-weight:bold;color:#494848; text-align:center;padding-bottom:12px;}
+.lianjie{ font-size:14px;color:#3c3a3a;text-align:center;border-top:solid 1px #6b6667;padding-top:12px;padding-bottom:30px;}
+		 /*页眉*/
+.header{margin-left:auto; margin-right:auto; overflow:hidden;background-image:url("images/bj_a.png");background-repeat:no-repeat;}
+.logo{ margin-top:46px; margin-bottom:15px; display:block;}
+.header img{ margin-left:auto; margin-right:auto;}
+.column{ border-bottom:solid 1px #262626;border-top:solid 1px #262626;padding-top:16px; padding-bottom:12px;margin-bottom:31px;text-align:center; margin-left:auto; margin-right:auto;
+position:relative; width:1200px;}
+.column span{ padding-left:20px; padding-right:34px; font-size:14px;}
+.dw{ position:absolute; top:7px;}
+.column a:hover{ color:red; cursor:pointer;}
+

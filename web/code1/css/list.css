@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+	.service{ height:380px; width:980px; margin:0 auto; margin-top:42px;}
+	.service-hd,.tips-hd,.school-hd{ height:28px; width:954px; margin:0 auto;  padding:0 4px; line-height:24px; font-size:20px; font-family:"微软雅黑";}
+	.service-hd h2,.tips-hd h2,.school-hd h2{ height:24px;line-height:24px;   float:left; border-left:4px solid #D0200E; padding:0 4px; font-weight:bold;}
+	.service-bd{ width:980px; border-top:2px solid #6D6D6D; padding:20px 12px 0;}
+	.service-pic{ width:950px; height:310px; margin:0 0 0 35px;}
+	.service-pic ul li{ width:194px; float:left; margin-right:42px; height:310px;}
+	.service-pic ul li a{ float:right; color:#7c7c7c; font-size:14px;}
+	
+	.tips{ height:300px; width:980px; margin:0 auto; margin-top:42px;}
+	.tips-bd{width:980px; border-top:2px solid #6D6D6D; padding:20px 12px 0;}
+	.tips a{ float:right; font-size:16px; padding-top:6px;}
+	.tips-pic ul{ padding:10px;}
+	.tips-pic ul li{ width:194px; height:194px; float:left; position:relative; padding:0 22px;}
+	.tips-pic ul li .tips-pic-in{ width:194px; height:38px; position:absolute; bottom:0; _bottom:-4px; background:url("../images/car tips bg.png") no-repeat; left:22px;}
+	.tips-pic ul li .tips-pic-in p{ font-size:16px; font-family:"微软雅黑"; float:left; font-weight:bold;}
+	.tips-pic ul li .tips-pic-in a{ font-size:14px;font-weight:bold; padding:16px 4px 0 0;}
+	
+	.school{ height:244px; width:980px; margin:0 auto; margin-top:42px;}
+	.school-bd{width:980px; border-top:2px solid #6D6D6D; padding:20px 12px 0;}
+	.school-btn{ background:url("../images/find for sellman.png") no-repeat; width:96px; height:34px; margin:10px auto; line-height:34px; text-align:center; font-family:"微软雅黑"; font-size:16px; font-weight:bold; cursor: pointer;}
